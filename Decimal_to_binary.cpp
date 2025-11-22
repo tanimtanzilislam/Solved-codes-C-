@@ -21,8 +21,11 @@ int main(){
    int decNum=50;
 
 
-   cout<<decToBinary(decNum)<<endl;
+   //cout<<decToBinary(decNum)<<endl;
 
+for(int i=0;i<10;i++){
+    cout<<decToBinary(i)<<endl;
+}
 
    return 0;
 
